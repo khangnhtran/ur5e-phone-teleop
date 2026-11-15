@@ -1,0 +1,19 @@
+{
+  "simulation": {
+    "python": "3.8.20",
+    "numpy": "1.24.4",
+    "scipy": "1.10.1",
+    "h5py": "3.11.0",
+    "opencv-python": "5.0.0.93",
+    "mujoco": "3.2.3",
+    "robosuite": "1.4.1",
+    "robomimic": "0.5.0",
+    "torch": "2.4.0"
+  },
+  "receiver": {
+    "python": "3.10.12",
+    "hebi-py": "2.16.3",
+    "numpy": "2.2.6",
+    "PyYAML": "6.0.3"
+  }
+}

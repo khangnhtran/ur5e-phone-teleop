@@ -1,0 +1,31 @@
+# Environments and interpreter artifacts
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+# Collection output, raw simulator states and recordings
+*.hdf5
+*.h5
+*.npz
+*.npy
+*.log
+*.pending
+*.jsonl
+*.xml
+data/
+datasets/
+raw/
+phone_demos/
+ur5e_can_phone_demos/
+exports/
+validation/
+audit/
+# Runtime and local credentials/config
+.collector*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.tar.gz
+.DS_Store

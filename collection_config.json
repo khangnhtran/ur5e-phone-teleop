@@ -1,0 +1,26 @@
+{
+  "control_freq": 20,
+  "mode": "record",
+  "output_root": "../ur5e_can_phone_demos",
+  "ip": "192.168.1.103",
+  "family": "HEBI",
+  "name": "mobileIO",
+  "port": 8766,
+  "tcp_orientation": "topdown",
+  "pos_scale": 2,
+  "rot_scale": 1.0,
+  "smooth_tau": 0.025,
+  "max_speed": 0.4,
+  "max_accel": 2.5,
+  "require_quality": false,
+  "max_demos": 0,
+  "policy": {
+    "success_seconds": 0.5
+  },
+  "phone_timeout_seconds": 0.25,
+  "quality_timeout_seconds": 0.5,
+  "orientation_control": "phone",
+  "max_angular_speed": 1.8,
+  "max_lag_m": 0.04,
+  "max_lag_rad": 0.3
+}
